@@ -9,7 +9,7 @@ const io = require("socket.io")(server,{
     }
 });
 
-app.get('https://consultorio.zitacuaro.tecnm.mx/server_sockets',(req,res)=>{
+app.get('/server_sockets',(req,res)=>{
     res.send('<h1>Servidor iniciado.</h1>');
 });
 
